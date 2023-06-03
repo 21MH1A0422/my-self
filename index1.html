@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Self</title>
+        <link rel="stylesheet" href="index.css">
+        </head>
+        <body>
+            <div class="container">
+                <div class="left">
+                    <h5>Hello! There,</h5>
+                    <h2>My Self Saikiran</h2>
+                    <h4>Student of ECE</h4>
+                    <h5>Aditya collge of Engineering</h5>
+                <img src="images/profile.jpg" id="profile-pic">
+                <lable for="input-file">update image</lable>
+                <input type="file" accept="image/jpeg, image/jpg, image/png" id="input-file">
+                </div>
+                <div class="rel">
+                    <img src="wield.jpg">
+                </div>
+                </div>
+                <script>
+                    let profilepic=document.getElementById("profile-pic");
+                    let inputfile=document.getElementById("input-file");
+                    inputfile.onchange=function(){
+                        profilepic.src=URL.createObjectURL(inputfiles[0]);
+                    }
+                </script>
+                <script src="index.js"> </script>
+                <title>image</title>
+        </body>
+</html>
+            
+
+        
+    
